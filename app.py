@@ -7,4 +7,4 @@ def hello_world():
     numbers=[11,13,14,20]
     return render_template('index.html',numbers=numbers)
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0',port=8080)
